@@ -6,8 +6,8 @@ print()
 
 for i in range(quantidade):
     numero = int(input('Digite um número: '))
-    soma = soma + numero
-    contagem = contagem + 1
+    soma += numero
+    contagem += 1
     if contagem == 1:
         maior = menor = numero
     else:
